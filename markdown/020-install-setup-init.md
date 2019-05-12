@@ -9,8 +9,11 @@
 >
   <ul>
     <li>Installation</li>
-    <li>Setup</li>
-    <li>First Project</li>
+    <li>Read the docs</li>
+    <li>Setup Host System</li>
+    <li>First Project - Basic Job</li>
+    <li>Check out our examples</li>
+    <li>Basic concepts of kanku</li>
   </ul>
 </div>
 <div
@@ -31,8 +34,8 @@
 
 ```none
 su -
-zypper ar obs://home:M0ses:Perl home:M0ses:Perl
-zypper ar obs://home:M0ses:kanku home:M0ses:kanku
+zypper ar obs://devel:kanku:perl devel:kanku:perl
+zypper ar obs://devel:kanku devel:kanku
 ```
 
 ### Refresh local repository cache
@@ -41,10 +44,32 @@ zypper ar obs://home:M0ses:kanku home:M0ses:kanku
 zypper ref -s
 ```
 
-### Install kanku-cli
+### Install kanku packages
 
 ```none
-zypper in kanku-cli sudo
+zypper in kanku sudo
+```
+
+
+<!-- .slide: data-state="normal" id="kanku-docs" data-menu-title="Kanku Documentation" -->
+## Read the docs
+
+```
+# Overview of kanku commands
+kanku --help
+```
+```
+# Command specific parameters 
+kanku <command> --help 
+```
+```
+# Overview of all Handlers
+perldoc Kanku::Handler
+```
+```
+# Documentation of specific Handler 
+#  (options, context getters/setters)
+perldoc Kanku::Handler::*
 ```
 
 
@@ -52,7 +77,7 @@ zypper in kanku-cli sudo
 ## Setup Developer Mode
 
 ```none
-sudo /opt/kanku/bin/kanku setup --devel
+sudo /usr/bin/kanku setup --devel
 sudo reboot
 ```
 
@@ -70,4 +95,16 @@ mkdir myNewProject
 cd myNewProject
 kanku init --memory 1024 --vcpu 1
 kanku up
+```
+
+
+<!-- .slide: data-state="normal" id="kanku-examples" data-menu-title="Kanku Example Job Files" -->
+# Check out our examples
+
+[KankuFile.examples](https://github.com/M0ses/kanku/tree/master/KankuFile.examples)
+
+```
+# Example KankuFiles (Job definitions)
+git clone https://github.com/M0ses/kanku
+cd kanku/KankuFile.examples
 ```
