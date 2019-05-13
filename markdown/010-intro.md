@@ -6,7 +6,7 @@
 *   Press `p` for previous slide
 *   Press `m` for a slide menu
 *   Press `s` for speaker notes <br />
-*   Here is the [original session abstract and details](https://link/to/session/details)
+*   Here is the [original session abstract and details](https://events.opensuse.org/conferences/oSC19/program/proposals/2510)
 
 
 <!-- .slide: data-state="qrcode" id="qrcode" data-menu-title="QR code" data-timing="0" -->
