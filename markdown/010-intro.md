@@ -1,3 +1,14 @@
+<!-- .slide: data-state="normal" id="about" data-timing="0" -->
+# About this presentation
+
+*   Press `?` for help on navigating these slides
+*   Press `n` for next slide
+*   Press `p` for previous slide
+*   Press `m` for a slide menu
+*   Press `s` for speaker notes <br />
+*   Here is the [original session abstract and details](https://link/to/session/details)
+
+
 <!-- .slide: data-state="qrcode" id="qrcode" data-menu-title="QR code" data-timing="0" -->
 
 <div class="qrcode" id="qrcode-talk"/>
