@@ -94,6 +94,30 @@ sudo reboot
 mkdir myNewProject
 cd myNewProject
 kanku init --memory 1024 --vcpu 1
+```
+
+
+<!-- .slide: data-state="normal" id="kanku-init" data-menu-title="Kanku Initialize Project" -->
+# Conference Setup
+
+`ATTENTION:` Because of limited bandwith at the conference you should change the following settings in your KankuFile:
+
+## FIXME - Add proper urls
+```
+  -
+    use_module: Kanku::Handler::OBSCheck
+    options:
+      api_url: https://osc19.kanku.local/public # FIXME
+      download_url: https://osc19.kanku.local/... #FIXME
+      ...
+```
+
+
+<!-- .slide: data-state="normal" id="kanku-init" data-menu-title="Kanku Initialize Project" -->
+
+# Start your first kanku VM
+
+```
 kanku up
 ```
 

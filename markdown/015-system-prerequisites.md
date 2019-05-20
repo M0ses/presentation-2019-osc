@@ -5,8 +5,8 @@
   * approx.  20GB free disk space / ideally 70GB
   * at least 4G RAM
   * at least 2 free VCPUs
-* (optional if laptop with opensuse) 1 VM for Developer Setup
-* (optional) required for Server Setup
+* (required if laptop without opensuse) 1 VM with openSUSE 15.0 or greater for Developer Setup
+* (optional) 1 VM for server setup
 
 
 <!-- .slide: data-state="normal" id="nested-kvm" data-menu-title="Nested Virtualization" data-timing="20s"-->

@@ -39,3 +39,12 @@
 * Linux/OpenSource enthusiast since 1998
 * https://github.com/M0ses/
 * https://m0ses.github.io/
+
+
+<!-- .slide: data-state="normal" id="workflow-overview" data-menu-title="Workflow Overview" data-timing="20s"-->
+# Workflow Overview
+
+<img
+      alt="Kanku Overview Developer Mode"
+      src="images/workflow.svg"
+    />
