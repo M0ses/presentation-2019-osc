@@ -14,6 +14,7 @@
     <li>First Project - Basic Job</li>
     <li>Check out our examples</li>
     <li>Basic concepts of kanku</li>
+    <li>Create and use your first image in kanku</li>
   </ul>
 </div>
 <div
@@ -48,7 +49,15 @@ zypper ref -s
 
 ```none
 zypper in kanku sudo
+
 ```
+
+### For ubuntu users
+
+https://github.com/M0ses/kanku/blob/master/KankuFile.kanku-ubuntu
+
+(SEE section ExecuteCommandsViaSSH)
+
 
 
 <!-- .slide: data-state="normal" id="kanku-docs" data-menu-title="Kanku Documentation" -->
