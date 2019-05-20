@@ -54,7 +54,7 @@ zypper in kanku sudo
 
 ### For ubuntu users
 
-https://github.com/M0ses/kanku/blob/master/KankuFile.kanku-ubuntu
+https://raw.githubusercontent.com/M0ses/kanku/master/KankuFile.kanku-ubuntu
 
 (SEE section ExecuteCommandsViaSSH)
 
