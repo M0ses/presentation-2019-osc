@@ -8,6 +8,12 @@
 *   Press `s` for speaker notes <br />
 *   Here is the [original session abstract and details](https://events.opensuse.org/conferences/oSC19/program/proposals/2510)
 
+Note:
+* Calm down
+* remove screen lock
+* relax
+* rock the show
+
 
 <!-- .slide: data-state="qrcode" id="qrcode" data-menu-title="QR code" data-timing="0" -->
 
