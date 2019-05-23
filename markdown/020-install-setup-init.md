@@ -29,7 +29,7 @@
 
 
 <!-- .slide: data-state="normal" id="kanku-installation" data-menu-title="Kanku Installation" -->
-## Installation
+## Installation (on openSUSE)
 
 ### Add repositories
 
@@ -52,9 +52,10 @@ zypper in kanku sudo
 
 ```
 
-### For ubuntu users
+<!-- .slide: data-state="normal" id="kanku-installation-ubuntu" data-menu-title="Kanku Installation on Ubuntu" -->
+## Installation for ubuntu users
 
-https://raw.githubusercontent.com/M0ses/kanku/master/KankuFile.kanku-ubuntu
+https://raw.githubusercontent.com/M0ses/kanku/master/install_ubuntu.sh
 
 (SEE section ExecuteCommandsViaSSH)
 
@@ -111,14 +112,19 @@ kanku init --memory 1024 --vcpu 1
 
 `ATTENTION:` Because of limited bandwith at the conference you should change the following settings in your KankuFile:
 
-## FIXME - Add proper urls
 ```
   -
     use_module: Kanku::Handler::OBSCheck
     options:
-      api_url: https://osc19.kanku.local/public # FIXME
+      api_url: https://obs.osc19.local/public
       download_url: https://osc19.kanku.local/... #FIXME
       ...
+```
+
+## Import the ssl certificate for obs.osc19.local
+```
+su -c "curl http://obs.osc19.local/obs.crt > /etc/pki/trust/anchors/obs.pem"
+update-ca-certificates
 ```
 
 
