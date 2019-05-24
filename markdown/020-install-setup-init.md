@@ -117,7 +117,7 @@ kanku init --memory 1024 --vcpu 1
     use_module: Kanku::Handler::OBSCheck
     options:
       api_url: https://obs.osc19.local/public
-      download_url: https://osc19.kanku.local/... #FIXME
+      base_url: http://obs.osc19.local:82
       ...
 ```
 
