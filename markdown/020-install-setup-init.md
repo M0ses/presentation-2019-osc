@@ -52,6 +52,7 @@ zypper in kanku sudo
 
 ```
 
+
 <!-- .slide: data-state="normal" id="kanku-installation-ubuntu" data-menu-title="Kanku Installation on Ubuntu" -->
 ## Installation for ubuntu users
 
