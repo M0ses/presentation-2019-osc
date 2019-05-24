@@ -104,7 +104,7 @@ sudo reboot
 ```none
 mkdir myNewProject
 cd myNewProject
-kanku init --memory 1024 --vcpu 1
+kanku init --memory 1024 --vcpu 1 --domain_name my-new-project
 ```
 
 
