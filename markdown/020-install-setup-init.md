@@ -134,8 +134,13 @@ update-ca-certificates
 # Start your first kanku VM
 
 ```
-kanku up
+kanku up [--skip_all_checks]
 ```
+
+Note:
+* explain 
+  * shared directory
+  * interaction with OBS
 
 
 <!-- .slide: data-state="normal" id="kanku-examples" data-menu-title="Kanku Example Job Files" -->
